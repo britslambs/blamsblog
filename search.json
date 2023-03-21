@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/FinalProjectNotebook.html",
+    "href": "posts/FinalProjectNotebook.html",
+    "title": "blamsblog",
+    "section": "",
+    "text": "import numpy as np\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\ndf = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vTv081TwMkwVLEMqAmqkEL0xQL6HHt_3ZB5uSF0oBYEbol39djeCg3Qb2u125ajj5UTzymD6qD1MnRF/pub?output=csv')"
+  },
+  {
+    "objectID": "posts/FinalProjectNotebook.html#overview",
+    "href": "posts/FinalProjectNotebook.html#overview",
+    "title": "blamsblog",
+    "section": "Overview",
+    "text": "Overview\nI chose create my project based on a Makeup Shade Dataset from Kaggle. This 2018 dataset is based on US, Nigeria, India, and Japan’s most popular makeup brands, their bestselling foundations, and their shade range. In this project, I will define my research questions/topic and motivations, create data visualizations using plotting methods learned in this course, analyze these findings, and discuss the implications of these results."
+  },
+  {
+    "objectID": "posts/FinalProjectNotebook.html#research-topic-and-questions",
+    "href": "posts/FinalProjectNotebook.html#research-topic-and-questions",
+    "title": "blamsblog",
+    "section": "Research Topic and Questions",
+    "text": "Research Topic and Questions\n• How does best-selling brands and their foundation shade range in NON-POC countries and POC countries compare?\n• What do the results reveal about their respective beauty industry and society beauty standards?\n• How do the founders of beauty companies play a role in the inclusitivity of their makeup shades?"
+  },
+  {
+    "objectID": "posts/FinalProjectNotebook.html#motivation",
+    "href": "posts/FinalProjectNotebook.html#motivation",
+    "title": "blamsblog",
+    "section": "Motivation",
+    "text": "Motivation\nMy motivation for choosing this data set and topic comes from my own personal interest in beauty and makeup. Outside of class, I am part of the club ‘Aurum’, a beauty/skincare club on campus. In addition, the topic of foundation shades is personal to me as I had difficulty finding the correct skintone of foundation for my skintone as a POC. Furthermore, being Asian-American, I often struggle with balancing both Asian and Western beauty standards. While Asian beauty standards focus on paleness, Western beauty standards idealizes tan skin. I am interested to see how these standards can be seen through this dataset. In addition, as beauty products become more globalized, I have noticed that makeup brands have started focusing on inclustivity and pigmentation of all their products to cater towards a wide demographic. I plan to analyze U.S foundation collection shades versus Japanese, Indian, and Nigerian foundational collection shades. I would like to note that even though Nigeria is not in Asia, many countries with POC also tend to idealized paler skin."
+  },
+  {
+    "objectID": "posts/FinalProjectNotebook.html#data-explaination",
+    "href": "posts/FinalProjectNotebook.html#data-explaination",
+    "title": "blamsblog",
+    "section": "Data Explaination",
+    "text": "Data Explaination\nThe data analyzes the foundation colors based on the hexadecimal color, hue, saturation, value, and lightness. These color analyses were done through Adobe Photoshop, using the CIE Lab Color Model. It is important to note that according to the CIELAB color model, the value 0 is defined as black while the value 100 is defined as 0. This means that the lighter the value, the darker the color. The Group Columns is referring to country. This column is from 0-7. These values and their countries/brands can be seen below.\n• 0: Fenty Beauty’s PRO FILT’R Foundation Only\n• 1: Make Up For Ever’s Ultra HD Foundation Only\n• 2: US Best Sellers\n• 3: BIPOC-recommended Brands with BIPOC Founders\n• 4: BIPOC-recommended Brands with White Founders\n• 5: Nigerian Best Sellers\n• 6: Japanese Best Sellers\n• 7: Indian Best Sellers"
+  },
+  {
+    "objectID": "posts/FinalProjectNotebook.html#data-limits",
+    "href": "posts/FinalProjectNotebook.html#data-limits",
+    "title": "blamsblog",
+    "section": "Data Limits",
+    "text": "Data Limits\nA downside to this data collection is that it only contains information about the best-selling products from a limited humber of sources. For U.S. products, sources are POPSUGAR, Amazon, StyleCaster, Refinery29, Statista, BEAUTY/crew. For recommended products for POC, sources are VIBE, Byrdie, The FADER, Allure, Glamour, Fast Company, THE CUT, Bustle, HuffPost, more.com, BuzzFeed, Refinery29. For Nigerian products, sources are BeautyInLagos, Beauty Geek, Lux Afrique, Zikel Cosmetics, Pulse.ng Pulse.ng again, Information Nigeria Women, Girly Essentials, Winnie The Make-Up Artist, Jumia Travel. In addition, it also leaves out how the best-sellng Japanese and Indian products were found. In addition, whhile this dataset is relatively new, makeup brands are always quickly evolving. Therefore, the best-selling products and shade names may be expanded in 2023."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/Blam's Blog.html",
+    "href": "posts/Blam's Blog.html",
+    "title": "Blam’s Blog",
+    "section": "",
+    "text": "I chose create my project based on a Makeup Shade Dataset from Kaggle. This 2018 dataset is based on US, Nigeria, India, and Japan’s most popular makeup brands, their bestselling foundations, and their shade range. In this project, I will define my research questions/topic and motivations, create data visualizations using plotting methods learned in this course, analyze these findings, and discuss the implications of these results.\n\n\n\n• How does best-selling brands and their foundation shade range in Western countries and Eastern countries compare? What do the results reveal about their respective beauty industries and societial beauty standards?\n• How do the founders of beauty companies play a role in the inclusitivity of their makeup shades?"
+  },
+  {
+    "objectID": "posts/Blam's Blog.html#data-explaination",
+    "href": "posts/Blam's Blog.html#data-explaination",
+    "title": "Blam’s Blog",
+    "section": "Data Explaination",
+    "text": "Data Explaination\nThe data analyzes the foundation colors based on the hexadecimal color, hue, saturation, value, and lightness. These color analyses were done through Adobe Photoshop, using the CIE Lab Color Model. It is important to note that according to the CIELAB color model, the value 0 is defined as black while the value 100 is defined as 0. This means that the lighter the value, the darker the color. The Group Columns is referring to country. This column is from 0-7. These values and their countries/brands can be seen below.\n• 0: Fenty Beauty’s PRO FILT’R Foundation Only\n• 1: Make Up For Ever’s Ultra HD Foundation Only\n• 2: US Best Sellers\n• 3: BIPOC-recommended Brands with BIPOC Founders\n• 4: BIPOC-recommended Brands with White Founders\n• 5: Nigerian Best Sellers\n• 6: Japanese Best Sellers\n• 7: Indian Best Sellers"
+  },
+  {
+    "objectID": "posts/Blam's Blog.html#data-limits",
+    "href": "posts/Blam's Blog.html#data-limits",
+    "title": "Blam’s Blog",
+    "section": "Data Limits",
+    "text": "Data Limits\nA downside to this data collection is that it only contains information about the best-selling products from a limited humber of sources. For U.S. products, sources are POPSUGAR, Amazon, StyleCaster, Refinery29, Statista, BEAUTY/crew. For recommended products for POC, sources are VIBE, Byrdie, The FADER, Allure, Glamour, Fast Company, THE CUT, Bustle, HuffPost, more.com, BuzzFeed, Refinery29. For Nigerian products, sources are BeautyInLagos, Beauty Geek, Lux Afrique, Zikel Cosmetics, Pulse.ng Pulse.ng again, Information Nigeria Women, Girly Essentials, Winnie The Make-Up Artist, Jumia Travel. In addition, it also leaves out how the best-sellng Japanese and Indian products were found. In addition, whhile this dataset is relatively new, makeup brands are always quickly evolving. Therefore, the best-selling products and shade names may be expanded in 2023."
+  },
+  {
+    "objectID": "posts/Blam's Blog.html#data-explorations",
+    "href": "posts/Blam's Blog.html#data-explorations",
+    "title": "Blam’s Blog",
+    "section": "Data Explorations",
+    "text": "Data Explorations\nI will be creating data visualizations and plots to explore my research questions"
+  },
+  {
+    "objectID": "posts/Blam's Blog.html#research-question-1",
+    "href": "posts/Blam's Blog.html#research-question-1",
+    "title": "Blam’s Blog",
+    "section": "Research Question 1",
+    "text": "Research Question 1\n• How does best-selling brands and their foundation shade range in Western countries and Eastern countries compare? What do the results reveal about their respective beauty industries and societial beauty standards?\n\nAnalysis\nAs seen from the bar plots, the average of Fenty Beauty, Makeup Forever, and U.S. Best Sellers ranges from 60-70 Lightness values. In contrast, the average of Nigeria, Japan, and India’s Best Sellers ranges from 50 to 76, with Japan and India ranging from 70-80. These results remain constant with Western and Eastern beauty standards that I previously stated in the Introduction. It is important to note that beauty products produced in Nigeria, Japan, and India are most likely produced for their respective monoethnic countries. This may indicate certain skintone ranges are prioritized in the production of foundation shades. However, skintones in each ethnicity come in large ranges and should be included in makeup. In addition, as beauty products become more globalized, beauty companies may strive to be inclusive of more demographics. This is seen in the Western makeup shade averages as these regions have more populations with various demographics.\nAfter bar plots, the scatter plots are created using the saturation and lightness of the foundation shades. The scatter plots of Fenty Beauty show that their foundation shade collection is evenly distributed, emphasizing that the brand does not focus on a certain skintone range. The scatter plots of Makeup Forever are mainly clustered within the 65-85 Lightness value range with data gaps on both ends of the range. This indicates the Makeup Forever’s foundation range does not cater to individuals that are on either ends of the foundation shade range. The scatter plots of U.S. best sellers fall within the 60-80 value range, a lighter skin-tone range.\nThe scatter plots of Nigeria best-sellers are widely dispersed and have less plots compared to other graphs. It is important to note that Nigeria has the least amount of entries, affecting how representative the dataset for this particular category. The scatter plots of Japan’s best-sellers are realtively evenly distributed. However, there is a data gap from value 70 and below, highlighting that there are fewer foundation shade options for deeper skin tones. The scatter plot of India’s best-sellers are mainly within the 70-80 value range. Below the value 70, there are very few plots. This emphasized that India’s best-selling foundation products are mainly catered towards lighter skin tones.\nOverall, it can be seen that the Western brand categories do have darker foundation shade options compared to Japan and India. This finding is in line with the Western beauty standard of tan skin. In contrast, Japan and India’s foundation shade range is more limited and clusters around light foundation shades. These findings can reveal the priorities of each respective beauty industries and whether or not they are making an effort to be more inclusive.\n\n\nBig Picture\nThe discussion of inclusivity is important in foundation shade range. Because of how limited many brands’ foundation shade range is, many people of color are left excluded and have difficulty finding a foundation match as skin colors and skin tones are more complex than what is available. The Western best-sellers and Nigeria have lower averages, indicating that a large portion of their foundation shade entries consits of darker foundation shades compared to Japan and India. Japan and India’s best-sellers are more limited in shade range and prioritize light/lighter skin tones. This finding is consistent with the Asian beauty standards of preferring lighter skin tones. And while Japan and India may have less diversity, these best-selling brands could still produce foundation shades for over-sea consumers interested in trying their products."
+  },
+  {
+    "objectID": "posts/Blam's Blog.html#research-question-2",
+    "href": "posts/Blam's Blog.html#research-question-2",
+    "title": "Blam’s Blog",
+    "section": "Research Question 2",
+    "text": "Research Question 2\n• How do the founders of beauty companies play a role in the inclusitivity of their makeup shades?\n\nAnalysis\nAs seen from the bar plots of BIPOC recommended products from BIPOC founded brands versus BIPOC recommended from White founded brands. The average of White founded brands is 66.401786 while the average of the BIPOC recommended brands is 56.035294. This emphasizes that BIPOC recommended brands have a larger shade range, including more darker shades ranges compared to White founded brands. In the scatter plots, BIPOC founded plots are relatively evenly distributed, implying that these brands have put in equal amount of effort in producing shades in all skin color ranges. In contrast, White founded plots are mainly concentrated around Lightness values 60-80, or light/lighter foundation shades. These results points out that a brand’s founders play a role in how inclusive foundation shade ranges are, which may come from personal experiences with skin color/skin tone that BIPOC have.\n\n\nBig Picture\nAs seen from the data visualization and average of lightness, BIPOC founded brands have a more extensive and evenly distributed foundation shade range compared to White founded brands. BIPOC owners may have personal experience with struggling to find the correct foundation match. In contrast, White owners do not experience the extent of this as many brands mainly cater towards creating light/lighter shade foundations as seen from the statistics and graphs above. These findings emphasize how beauty products made by individuals that come from similar backgrounds and demographics understand the significance of having a wide foundation shade range."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blamsblog",
+    "section": "",
+    "text": "Makeup Shades and Beauty Standards/Inclusitivity: DH140 Final Project\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 21, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlam’s Blog\n\n\n\n\n\nDh140 Final Project\n\n\n\n\n\n\nMar 20, 2023\n\n\nBritney Lam\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 18, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  }
+]
